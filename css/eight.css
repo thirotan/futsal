@@ -1,0 +1,74 @@
+@keyframes p1 {
+  0%   { top: 340px; left: 90px; }
+  25%  { top: 300px; left: 20px; }
+  50%  { top: 300px; left: 21px; }
+  100% { top: 300px; left: 20px; }
+}
+
+.player_1 {
+  animation: p1 4s infinite;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #af0;
+  position: relative;
+  top: 340px;
+  left: 90px;
+}
+
+@keyframes p2 {
+  0%   { top: 300px; left: 20px;  }
+  25%  { top: 300px; left: 21px;  }
+  50%  { top: 340px; left: 90px;  }
+  75%  { top: 300px; left: 170px; }
+  100% { top: 300px; left: 170px; }
+}
+
+.player_2 {
+  animation: p2 4s infinite;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #ef0;
+  position: relative;
+  top: 300px;
+  left: 20px;
+}
+
+@keyframes p3 {
+  0%   { top: 285px; left: 170px; }
+  25%  { top: 260px; left: 170px; }
+  50%  { top: 285px; left: 170px; }
+  75%  { top: 284px; left: 170px; }
+  100% { top: 300px; left: 90px; }
+}
+
+.player_3 {
+  animation: p3 4s infinite;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #660;
+  position: relative;
+  top: 285px;
+  left: 170px;
+}
+
+@keyframes bl {
+  0%   { top: 330px; left: 89px;  }
+  25%  { top: 300px; left: 20px;  }
+  50%  { top: 340px; left: 90px;  }
+  75%  { top: 300px; left: 170px; }
+  100% { top: 340px; left: 90px;  }
+}
+
+.ball {
+  animation: bl 4s infinite;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #000;
+  position: relative;
+  top: 330px;
+  left: 89px;
+}
